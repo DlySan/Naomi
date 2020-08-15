@@ -1,0 +1,20 @@
+{
+  "name": "naomi-v3",
+  "version": "3.0.0",
+  "description": "",
+  "main": "Naomi.js",
+  "scripts": {
+    "start": "node Naomi.js"
+  },
+  "author": "DlySan",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dblapi.js": "^2.4.0",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.4.1",
+    "parse-ms": "^2.1.0",
+    "quick.db": "^7.1.1"
+  }
+}
