@@ -75,7 +75,7 @@ FileSystem.readdir("./Source/Commands", (err, files) => {
 
 if (process.version.slice(1).split('.')[0] < 8) throw new Error(colors.red('[W]: É necessário o Node 8.0.0 ou superior. Atualize o Node no sistema.'));
 
-/*process.on('unhandledRejection', function (err) {
+process.on('unhandledRejection', function (err) {
     if (!process.mdebug) return;
     console.error(Color.red(err));
     process.exit(1);
@@ -84,4 +84,4 @@ if (process.version.slice(1).split('.')[0] < 8) throw new Error(colors.red('[W]:
 process.on('uncaughtException', function (err) {
     console.error(Color.red(err));
     process.exit();
-})*/
+})
