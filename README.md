@@ -12,11 +12,11 @@
 
 ## 🙌 Como Usar?
 
-Você também pode hospedar a Naomi em algum lugar se você não quiser utilizar a versão pública dela, mas lembrando...
+~ Você também pode hospedar a Naomi em algum lugar se você não quiser utilizar a versão pública dela, mas lembrando...
 
 • Nós deixamos o código-fonte de nossos projetos para que outras pessoas possam se inspirar e aprender com nossos projetos, o objetivo é que pessoas que são fãs da Naomi aprendam como ela funciona e, caso queiram, podem ajudar ela com bug fixes e novas funcionalidades.
 
-• Eu não irei dar suporte caso você queria fazer self hosting apenas para você querer fazer "fama" falando que você criou um bot, mesmo que na verdade você apenas pegou o código-fonte dela e hospedou, lembre-se, a licença do projeto é [AGPL v3], <b>você é obrigado a deixar todas as suas alterações no projeto públicas!</b>
+• Eu não irei dar suporte caso você queria fazer self hosting apenas para você querer fazer "fama" falando que você criou um bot, mesmo que na verdade você apenas pegou o código-fonte dela e hospedou, lembre-se, a licença do projeto é [AGPL v3](https://github.com/DlySan/Naomi/blob/master/LICENSE), <b>você é obrigado a deixar todas as suas alterações no projeto públicas!</b>
 
 • Eu não irei ficar explicando como arrumar problemas na sua versão self hosted dela, <b>você está por sua conta e risco.</b>
 
@@ -26,7 +26,7 @@ Você também pode hospedar a Naomi em algum lugar se você não quiser utilizar
 
 ## 📦 Dependências
 
-A Naomi utiliza algumas [dependências no código-fonte dela](Lin).
+~ A Naomi utiliza algumas [dependências no código-fonte dela](Lin).
 
 * [Node.js](https://nodejs.org)
 * [Discord.js](https://www.npmjs.com/package/discord.js)
@@ -38,9 +38,9 @@ A Naomi utiliza algumas [dependências no código-fonte dela](Lin).
 
 ## 📄 Licença
 
-O código-fonte da <b>Naomi</b> está licenciado sob a [GNU Affero General Public License v3.0](https://github.com/DlySan/Naomi/blob/master/LICENSE)
+~ O código-fonte da <b>Naomi</b> está licenciado sob a [GNU Affero General Public License v3.0](https://github.com/DlySan/Naomi/blob/master/LICENSE)
 
-Utilizei a [README.md](https://github.com/LorittaBot/Loritta/blob/master/README.md) da Loritta e [README.md](https://github.com/LockDzn/Kally/blob/master/README.md) da Kally de inspiração.
+~ Utilizei a [README.md](https://github.com/LorittaBot/Loritta/blob/master/README.md) da Loritta e [README.md](https://github.com/LockDzn/Kally/blob/master/README.md) da Kally de inspiração.
 
 <hr>
 <br>
