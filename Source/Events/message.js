@@ -2,19 +2,15 @@ const Database = require("quick.db");
 const talkedRecently = new Set();
 
 module.exports = async (Naomi, message, arg) => {
-
-  var PREFIXO = Database.get("PREFIX["+ message.guild.id +"]");
   
   if (message.author.bot) return;
 
   if (message.channel.type === "dm") return;
 
-  if (PREFIXO == null) PREFIXO = process.env.PREFIX;
-
-  if (message.content.indexOf(PREFIXO) !== 0) return;
+  if (message.content.indexOf(process.env.PREFIX) !== 0) return;
   
   const args = message.content
-    .slice(PREFIXO.length)
+    .slice(process.env.PREFIX.length)
     .trim()
     .split(/ +/g);
   const command = args.shift().toLowerCase() || args.shift().toUpperCase();
