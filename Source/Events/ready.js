@@ -2,9 +2,6 @@ const Color = require('colors');
 
 module.exports = async (Naomi) => {
 
-  const DBL = require("dblapi.js");
-  const DBL2 = new DBL(process.env.TOKENDBL, Naomi);
-
   console.log(Color.cyan("[C]: Naomi was connected to the discord's servers."))
     
   let status = [
@@ -24,8 +21,5 @@ module.exports = async (Naomi) => {
     
   setStatus();
   setInterval(() => setStatus(), 20000);
-    
-  setInterval(() => {
-    DBL2.postStats(Naomi.guilds.cache.size);
-  }, 2000000);
+  
 }
