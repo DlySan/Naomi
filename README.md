@@ -38,7 +38,7 @@ A Naomi utiliza algumas [dependências no código-fonte dela](Lin).
 
 ## 📄 Licença
 
-O código-fonte da <b>Naomi</b> está licenciado sob a [GNU Affero General Public License v3.0]
+O código-fonte da <b>Naomi</b> está licenciado sob a [GNU Affero General Public License v3.0](https://github.com/DlySan/Naomi/blob/master/LICENSE)
 
 Utilizei a [README.md](https://github.com/LorittaBot/Loritta/blob/master/README.md) da Loritta e [README.md](https://github.com/LockDzn/Kally/blob/master/README.md) da Kally de inspiração.
 
