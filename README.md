@@ -26,7 +26,7 @@
 
 ## 📦 Dependências
 
-~ A Naomi utiliza algumas [dependências no código-fonte dela](Lin).
+~ A Naomi utiliza algumas [dependências no código-fonte dela](https://github.com/DlySan/Naomi/blob/master/package.json).
 
 * [Node.js](https://nodejs.org)
 * [Discord.js](https://www.npmjs.com/package/discord.js)
