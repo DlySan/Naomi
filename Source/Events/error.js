@@ -1,4 +1,5 @@
-    const Discord = require("discord.js");
+const Discord = require("discord.js");
+const Imagens = require("../Utils/Imagens.json")
 
 module.exports = async (Naomi, error) => {
 
@@ -6,7 +7,7 @@ module.exports = async (Naomi, error) => {
     .setColor("RED")
     .addField("<:JS:738301302894886932> **Type of Error**", '```js\n'+ JSON.stringify(error) +'\n}```')
     .setTimestamp()
-    .setFooter("Naomi Reports", "https://cdn.discordapp.com/attachments/727225886528766027/738302260752416818/lupa.webp")
+    .setFooter("Naomi Reports", Imagens.lupa)
 
     Naomi.channels.cache.get("738235079905509427").send(Embed)
 
