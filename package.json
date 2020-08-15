@@ -1,16 +1,14 @@
 {
-  "name": "naomi-v3",
+  "name": "naomi-bot",
+  "author": "DlySan",
   "version": "3.0.0",
-  "description": "",
+  "description": "Naomi is an automotive application from Discord created by DlySan",
   "main": "Naomi.js",
   "scripts": {
     "start": "node Naomi.js"
   },
-  "author": "DlySan",
-  "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0",
-    "dblapi.js": "^2.4.0",
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "enmap": "^5.4.1",
